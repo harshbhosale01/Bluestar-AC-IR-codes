@@ -87,7 +87,7 @@ class RawIRMessage():
     """Display common representations of the suppied binary string."""
     byte_wise_binary_str = ','.join([binary_str[i:i+8] for i in range(0, len(binary_str), 8)])
     wb = lw('Blue_star_data.xlsx')
-    ws = wb['BinaryData']
+    ws = wb['BinaryData1']
 
     binary_list = byte_wise_binary_str.split(',')
 
